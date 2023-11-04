@@ -1,8 +1,9 @@
 {
   "name": "@dannyxcii/console-logger",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "A console logging package for easily creating coloured messages.",
   "main": "dist/console-logger.js",
+  "module": "dist/console-logger.js",
   "scripts": {
     "build": "webpack --config webpack.config.js --mode=production",
     "watch": "webpack --config webpack.config.js --mode=development --watch",
