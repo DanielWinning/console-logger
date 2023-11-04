@@ -1,0 +1,10 @@
+{
+  "name": "@dannyxcii/console-logger",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/console-logger.js",
+  "scripts": {},
+  "keywords": ["console", "colour", "logging"],
+  "author": "Daniel Winning <daniel@winningsoftware.co.uk>",
+  "license": "GPL-3.0-only"
+}
