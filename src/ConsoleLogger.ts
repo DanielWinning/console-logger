@@ -1,6 +1,6 @@
 import { ConsoleColour } from './Enum/ConsoleColour';
 
-class ConsoleLogger
+export default class ConsoleLogger
 {
     /**
      * @param {string} message
@@ -43,5 +43,3 @@ class ConsoleLogger
         console.log(`${colour}${message}${ConsoleColour.Reset}`);
     }
 }
-
-export { ConsoleColour, ConsoleLogger };

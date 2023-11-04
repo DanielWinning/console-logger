@@ -1,3 +1,4 @@
-import * as Logger from './ConsoleLogger';
+import { ConsoleColour } from './Enum/ConsoleColour';
+import ConsoleLogger from './ConsoleLogger';
 
-export default Logger;
+export { ConsoleColour, ConsoleLogger };
