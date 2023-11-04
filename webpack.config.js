@@ -25,7 +25,7 @@ module.exports = {
         new CopyWebpackPlugin({
             patterns: [
                 {
-                    from: 'src/index.d.ts',
+                    from: 'src/console-logger.d.ts',
                     to: 'console-logger.d.ts'
                 }
             ]
