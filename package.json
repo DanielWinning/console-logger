@@ -1,13 +1,13 @@
 {
   "name": "@dannyxcii/console-logger",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "A console logging package for easily creating coloured messages.",
   "main": "dist/console-logger.js",
   "module": "dist/console-logger.js",
   "scripts": {
     "build": "webpack --config webpack.config.js --mode=production",
     "watch": "webpack --config webpack.config.js --mode=development --watch",
-    "test": "jest --verbose && npx badger --jest ./coverage/coverage-final.json && npx badger --version ./package.json"
+    "test": "jest --verbose --silent && npx badger --jest ./coverage/coverage-final.json && npx badger --version ./package.json"
   },
   "keywords": [
     "console",

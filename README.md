@@ -2,9 +2,9 @@
 
 <div>
 <!-- Version Badge -->
-<img src="https://img.shields.io/badge/Version-0.1.7-blue" alt="Version 0.1.7">
+<img src="https://img.shields.io/badge/Version-0.1.8-blue" alt="Version 0.1.8">
 <!-- Coverage Badge -->
-<img src="https://img.shields.io/badge/Coverage-70.24%25-orange" alt="Coverage 70.24%">
+<img src="https://img.shields.io/badge/Coverage-100.00%25-green" alt="Coverage 100.00%">
 </div>
 
 Add colours to your console output with ease.
