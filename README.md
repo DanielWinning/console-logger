@@ -2,7 +2,7 @@
 
 <div>
 <!-- Version Badge -->
-<img src="https://img.shields.io/badge/Version-0.1.8-blue" alt="Version 0.1.8">
+<img src="https://img.shields.io/badge/Version-0.1.9-blue" alt="Version 0.1.9">
 <!-- Coverage Badge -->
 <img src="https://img.shields.io/badge/Coverage-100.00%25-green" alt="Coverage 100.00%">
 </div>
@@ -32,9 +32,13 @@ ConsoleLogger.logWarning(<string>message);
 // console.error()'s a red message
 ConsoleLogger.logError(<string>message);
 
-// Any colour/style you like from the ConsoleColour enum
-ConsoleLogger.log(<string>message, <string>colour);
+// Any colour/style combination you like from the ConsoleColour enum
+ConsoleLogger.log(<string>message, <Array<string>>colours);
 
 // Example .log() usage
-ConsoleLogger.log('My message', ConsoleColour.FgCyan);
+ConsoleLogger.log('My message', [
+    ConsoleColour.FgCyan, 
+    ConsoleColour.BgMagenta, 
+    ConsoleColour.Blink
+]);
 ```

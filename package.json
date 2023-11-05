@@ -1,6 +1,6 @@
 {
   "name": "@dannyxcii/console-logger",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "A console logging package for easily creating coloured messages.",
   "main": "dist/console-logger.js",
   "module": "dist/console-logger.js",

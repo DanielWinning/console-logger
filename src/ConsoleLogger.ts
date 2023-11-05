@@ -36,10 +36,10 @@ export default class ConsoleLogger
 
     /**
      * @param {string} message
-     * @param {string} colour
+     * @param {Array<string>} colours
      */
-    public static log(message: string, colour: string): void
+    public static log(message: string, colours: Array<string>): void
     {
-        console.log(`${colour}${message}${ConsoleColour.Reset}`);
+        console.log(`${colours.join('')}${message}${ConsoleColour.Reset}`);
     }
 }

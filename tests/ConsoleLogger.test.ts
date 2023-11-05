@@ -1,5 +1,4 @@
-import ConsoleLogger from '../src/ConsoleLogger';
-import {ConsoleColour} from "../src";
+import { ConsoleColour, ConsoleLogger } from '../src';
 
 let errorConsoleSpy = jest.spyOn(console, 'error'),
     logConsoleSpy = jest.spyOn(console, 'log'),
@@ -43,8 +42,8 @@ describe('Class: ConsoleLogger', () => {
     });
 
     it('should log to console with custom color', () => {
-        ConsoleLogger.log('log message', ConsoleColour.FgYellow);
+        ConsoleLogger.log('log message', [ConsoleColour.FgYellow, ConsoleColour.Blink]);
 
-        expect(logConsoleSpy).toHaveBeenCalled();
+        expect(logConsoleSpy).toHaveBeenCalledWith("\x1b[33m\x1b[5mlog message\x1b[0m");
     });
 });
